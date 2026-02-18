@@ -1,0 +1,7 @@
+{
+  "name": "AgroVision AI",
+  "description": "A professional-grade plant disease detection mobile application powered by Gemini AI. Scan your plants to receive instant diagnosis, treatment plans, and health monitoring tips.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

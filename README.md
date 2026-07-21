@@ -1,15 +1,12 @@
-===============================================================
-AGRO VISION -- PLANT DISEASE DETECTION MOBILE APPLICATION
-================================================================
+
+AGRO VISION -- PLANT DISEASE DETECTION MOBILE
 
 AI-powered mobile application for detecting plant diseases
 in Pepper Bell ,  Potato and Tomato crops using image classification.
 Agro Vision enables farmers to quickly identify diseases
-using a smartphone camera -- fully offline.
+using a smartphone camera -- fully 
 
-================================================================
 TABLE OF CONTENTS
-================================================================
 
 1.  Project Description
 2.  Getting Started
@@ -25,9 +22,8 @@ TABLE OF CONTENTS
 10. License
 11. Acknowledgements
 
-================================================================
-1. PROJECT DESCRIPTION
-================================================================
+
+1. PROJECT DESCRIPTION 
 
 Agro Vision is a Flutter-based mobile application that uses
 a TensorFlow Lite (TFLite) AI model to detect plant diseases
@@ -60,9 +56,8 @@ WHO USES IT
     Captures or uploads a leaf image and receives instant
     disease detection results.
 
-================================================================
+
 2. GETTING STARTED
-================================================================
 
 PREREQUISITES
 -------------
@@ -117,9 +112,9 @@ Step 6 -- Run Application
 
   The app will build and install on the device.
 
-================================================================
+
 3. USAGE
-================================================================
+
 
 USER WORKFLOW
 -------------
@@ -133,9 +128,9 @@ USER WORKFLOW
 
 5. Data is stored locally for future reference
 
-================================================================
+
 4. FEATURES
-================================================================
+
 
 REAL-TIME DISEASE DETECTION
   Uses a TensorFlow Lite model to classify plant diseases
@@ -153,9 +148,9 @@ LOCAL DATA STORAGE
 USER-FRIENDLY INTERFACE
   Simple UI for capturing and analyzing plant images.
 
-================================================================
+
 5. SYSTEM ARCHITECTURE
-================================================================
+
 
   Layer        | Technology
   -------------|----------------------------------------
@@ -178,9 +173,9 @@ KEY FOLDERS
   âââ ios/                iOS configuration
   âââ pubspec.yaml        Dependency configuration
 
-================================================================
+
 6. DATABASE STRUCTURE
-================================================================
+
 
 The application uses a local SQLite database to store scan
 history.
@@ -193,9 +188,9 @@ Example stored data:
 
 This allows users to review previous scans.
 
-================================================================
+
 7. MODEL TRAINING (OPTIONAL)
-================================================================
+
 
 To retrain the AI model:
 
@@ -216,9 +211,9 @@ Step 4 -- Output files
 
 Replace the model in the assets folder with the new one.
 
-================================================================
+
 8. TROUBLESHOOTING
-================================================================
+
 
   Problem                    Solution
   -------------------------  ------------------------------
@@ -238,9 +233,9 @@ Replace the model in the assets folder with the new one.
   Build errors               Run:
                              flutter doctor
 
-================================================================
+
 9. CONTRIBUTING
-================================================================
+
 
 Contributions are welcome.
 
@@ -250,20 +245,19 @@ Contributions are welcome.
 4. Push changes
 5. Submit a pull request
 
-================================================================
+
 10. LICENSE
-================================================================
+
 
 Distributed under the MIT License.
 
-================================================================
+
 11. ACKNOWLEDGEMENTS
-================================================================
+
 
   - TensorFlow Lite        Mobile AI framework
   - Flutter                Mobile development framework
   - MobileNetV2            Image classification model
 
-================================================================
+
 Agro Vision -- Smart Farming Through AI
-================================================================
